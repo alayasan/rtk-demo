@@ -11,7 +11,8 @@
     "extends": [
         "eslint:recommended",
         "plugin:react/recommended",
-        "plugin:@typescript-eslint/recommended"
+        "plugin:@typescript-eslint/recommended",
+        "prettier"
     ],
     "overrides": [
     ],
@@ -25,5 +26,7 @@
         "@typescript-eslint"
     ],
     "rules": {
-    }
+        "simple-import-sort/imports": "error",
+        "sort-keys-fix/sort-keys-fix": "error"
+    },
 }
